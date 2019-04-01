@@ -6,7 +6,7 @@
 
 > written by OFEII
 
-** 细节如下图适配移动端/PC**
+**细节如下图适配移动端/PC**
 
 
 ![img1](/images/class1.png)

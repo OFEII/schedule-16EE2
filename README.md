@@ -9,6 +9,6 @@
 ** 细节如下图适配移动端/PC**
 
 
-![img1](/images/class1.jpg)
-![img2](/images/class2.jpg)
-![img3](/images/class3.jpg)
+![img1](/images/class1.png)
+![img2](/images/class2.png)
+![img3](/images/class3.png)

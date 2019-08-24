@@ -31,6 +31,10 @@ a {
 Main Components 
 
 -------------------------------- */
+hr{
+  outline: none;
+  border: 1px solid #f2f2f2;
+}
 .schedule-header{
   width: 100%;
   display: flex;
@@ -315,27 +319,30 @@ Main Components
 }
 
 .cd-schedule .event-name {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
 .cd-schedule .event-date {
   /* they are not included in the the HTML but added using JavScript */
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   opacity: .7;
-  line-height: 1.2;
-  margin-bottom: .2em;
+  line-height: 1;
+  margin-bottom: .2rem;
+  margin-top: -.5rem;
 }
 
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
   background: #86aee2;
+  padding-top: 25rem;
+
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
@@ -344,40 +351,74 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
-  background: #9cc78a;
+  background: #86aee2;
+  z-index: 999;
 }
 
 .cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #80ad6d;
+  background: #6b96cf;
 }
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #3b4769d0;
+  padding-top: 20rem;
+  background: #3a466893;
+  z-index: 998;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
   background: #31416b; 
 }
 
-
-
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: #f6c261e0;
+  background: #3b4769d0;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #ebad6c;
+  background: #31416b; 
+
 }
+
 .cd-schedule .single-event[data-event="event-5"],
 .cd-schedule [data-event="event-5"] .header-bg {
+  border-radius: 5px;
+  background: #9cc78a;
+}
+
+.cd-schedule .single-event[data-event="event-5"]:hover {
+  background: #80ad6d;
+  
+}
+
+.cd-schedule .single-event[data-event="event-6"],
+.cd-schedule [data-event="event-6"] .header-bg {
   border-radius: 5px;
   background: #f4676f;
 }
 
-.cd-schedule .single-event[data-event="event-5"]:hover {
+.cd-schedule .single-event[data-event="event-6"]:hover {
   background: #d8555c;
+  
+}
+
+.cd-schedule .single-event[data-event="event-7"],
+.cd-schedule [data-event="event-7"] .header-bg {
+  background: #f6c261e0;
+}
+
+.cd-schedule .single-event[data-event="event-7"]:hover {
+  background: #ebad6c;
+}
+
+.cd-schedule .single-event[data-event="event-8"],
+.cd-schedule [data-event="event-8"] .header-bg {
+  background-image: linear-gradient(129deg, #9cc78a 25%, #f8848aec 100%);
+
+}
+
+.cd-schedule .single-event[data-event="event-8"]:hover {
+  background-image: linear-gradient(129deg, #b0c5a8 25%, #f5aeb1 100%);
 }
 
 .cd-schedule .event-modal {

@@ -359,12 +359,12 @@ hr{
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #9cc78a;
+  background: #3a466893 !important;
   z-index: 998;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #80ad6d; 
+  background: #31416b !important; 
 }
 
 .cd-schedule .single-event[data-event="event-4"],

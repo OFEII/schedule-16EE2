@@ -339,9 +339,7 @@ hr{
 
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
-  /* this is used to set a background color for the event and the modal window */
   background: #86aee2;
-  padding-top: 25rem;
 
 }
 
@@ -361,7 +359,6 @@ hr{
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  padding-top: 20rem;
   background: #3a466893;
   z-index: 998;
 }

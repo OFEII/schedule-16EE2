@@ -349,7 +349,7 @@ hr{
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
-  background: #86aee2;
+  background: #86aee2; 
   z-index: 999;
 }
 
@@ -359,21 +359,21 @@ hr{
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #3a466893;
+  background: #3a466893 !important;
   z-index: 998;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #31416b; 
+  background: #31416b !important; 
 }
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: #3b4769d0;
+  background: #3b4769d0 !important;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #31416b; 
+  background: #31416b !important; 
 
 }
 
@@ -401,21 +401,21 @@ hr{
 
 .cd-schedule .single-event[data-event="event-7"],
 .cd-schedule [data-event="event-7"] .header-bg {
-  background: #f6c261e0;
+  background: #f6c261e0 !important;
 }
 
 .cd-schedule .single-event[data-event="event-7"]:hover {
-  background: #ebad6c;
+  background: #ebad6c !important;
 }
 
 .cd-schedule .single-event[data-event="event-8"],
 .cd-schedule [data-event="event-8"] .header-bg {
-  background-image: linear-gradient(129deg, #9cc78a 25%, #f8848aec 100%);
+  background-image: linear-gradient(129deg, #9cc78a 25%, #f8848aec 100%) !important;
 
 }
 
 .cd-schedule .single-event[data-event="event-8"]:hover {
-  background-image: linear-gradient(129deg, #b0c5a8 25%, #f5aeb1 100%);
+  background-image: linear-gradient(129deg, #b0c5a8 25%, #f5aeb1 100%) !important;
 }
 
 .cd-schedule .event-modal {
